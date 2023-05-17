@@ -1,0 +1,19 @@
+using System;
+
+static class Program
+
+{
+
+public static void Main(string[] args)
+
+{
+
+string[] words = Console.ReadLine().Split();
+
+Array.Reverse(words);
+
+Console.WriteLine(String.Join(" ", words));
+
+}
+
+}
